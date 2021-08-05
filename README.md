@@ -8,4 +8,4 @@ For any questions contact me on Discord: Topi#1337
 ![Screenshot](https://media.discordapp.net/attachments/869644640507273266/872843215949168671/unknown.png)
 
 ## License
-DontOverrenderMyMenuV2 is provided under the terms of [GNU GPLv3 license](LICENSE)
+ERP is provided under the terms of [GNU GPLv3 license](LICENSE)
