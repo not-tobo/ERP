@@ -13,7 +13,7 @@ namespace ERP_Counter
     {
         public const string Name = "ERP";
         public const string Author = "Topi#1337";
-        public const string Version = "0.0.1";
+        public const string Version = "0.0.2";
         public const string DownloadLink = "näh";
     }
     public class ERP : MelonMod
@@ -38,14 +38,16 @@ namespace ERP_Counter
             MelonPreferences.CreateEntry<int>(settingsCategory, "ERPcount", 0, "ERP Count");
             MelonPreferences.CreateEntry<int>(settingsCategory, "uiMenuX", 0, "UI Button X");
             MelonPreferences.CreateEntry<int>(settingsCategory, "uiMenuY", 1, "UI Button Y");
+            MelonPreferences.CreateEntry<bool>(settingsCategory, "halfButton", false, "UI half Button");
             ERPCOUNT = MelonPreferences.GetEntryValue<int>(settingsCategory, "ERPcount");
             uiMenuX = MelonPreferences.GetEntryValue<int>(settingsCategory, "uiMenuX");
             uiMenuY = MelonPreferences.GetEntryValue<int>(settingsCategory, "uiMenuY");
+            halfButton = MelonPreferences.GetEntryValue<bool>(settingsCategory, "halfButton");
 
             MelonLogger.Msg(ConsoleColor.Magenta, "ERP BUTTON COORDS X: " + uiMenuX + " Y: " + uiMenuY);
             MelonLogger.Msg(ConsoleColor.Magenta, "YOU START WITH A COUNT OF " + ERPCOUNT + " TODAY. WILL IT INCREASE?");
 
-            ERPBUTTON = new QMSingleButton("ShortcutMenu", uiMenuX, uiMenuY, "ERP: " + ERPCOUNT, YOU_DID_SHAME, "You did ERP? Click This!", null, null);
+            ERPBUTTON = new QMSingleButton("ShortcutMenu", uiMenuX, uiMenuY, "ERP: " + ERPCOUNT, YOU_DID_SHAME, "You did ERP? Click This!", null, null, halfButton);
         }
 
         public static void YOU_DID_SHAME()
@@ -67,5 +69,6 @@ namespace ERP_Counter
         public static string settingsCategory = "ERP";
         public static int uiMenuX;
         public static int uiMenuY;
+        public static bool halfButton;
     }
 }
