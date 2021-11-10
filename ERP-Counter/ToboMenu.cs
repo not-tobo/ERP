@@ -12,7 +12,7 @@ namespace ERP
     {
         public const string Name = "ERP";
         public const string Author = "Topi#1337";
-        public const string Version = "0.0.3";
+        public const string Version = "0.0.4";
         public const string DownloadLink = "https://github.com/not-tobo/ERP";
     }
     public class ERP : MelonMod
