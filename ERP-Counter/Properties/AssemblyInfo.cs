@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using MelonLoader;
 using System;
-using ERP_Counter;
+using ERP;
 
 // Allgemeine Informationen über eine Assembly werden über die folgenden
 // Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
@@ -11,7 +11,7 @@ using ERP_Counter;
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ERP-Counter")]
+[assembly: AssemblyProduct("ToboMenu")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -37,5 +37,5 @@ using ERP_Counter;
 [assembly: AssemblyVersion(ModInfo.Version)]
 [assembly: AssemblyFileVersion(ModInfo.Version)]
 [assembly: MelonColor(ConsoleColor.DarkMagenta)]
-[assembly: MelonInfo(typeof(ERP), ModInfo.Name, ModInfo.Version, ModInfo.Author, ModInfo.DownloadLink)]
+[assembly: MelonInfo(typeof(ERP.ERP), ModInfo.Name, ModInfo.Version, ModInfo.Author, ModInfo.DownloadLink)]
 [assembly: MelonGame("VRChat", "VRChat")]
