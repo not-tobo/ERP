@@ -91,7 +91,7 @@ namespace ERP
         public static void YOU_UWU()
         {
             WCOUNT++;
-            MelonLogger.Msg(ConsoleColor.Magenta, "OH THAT WAS WHOLESOME!!!! WHOLESOME MOMENTS YOU HAD " + ERPCOUNT + "!");
+            MelonLogger.Msg(ConsoleColor.Magenta, "OH THAT WAS WHOLESOME!!!! WHOLESOME MOMENTS YOU HAD " + WCOUNT + "!");
             MelonPreferences.SetEntryValue(settingsCategory, "Wcount", WCOUNT);
             MelonPreferences.Save();
             WBUTTON.Text = "Wholesome:\n" + WCOUNT;
