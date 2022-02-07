@@ -87,7 +87,7 @@
     <Compile Include="ReButtonApi\ExtendedQuickMenu.cs" />
     <Compile Include="ReButtonApi\ReMenuButton.cs" />
     <Compile Include="ReButtonApi\UIElement.cs" />
-    <Compile Include="ToboMenu.cs" />
+    <Compile Include="ERP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
