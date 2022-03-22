@@ -1,7 +1,7 @@
 ## ERP
 nothing to say... really...
 
-The mod uses the Button API from [ReModCE](https://github.com/RequiDev/ReModCE).
+The mod uses the Button API from [ReMod.Core](https://github.com/RequiDev/ReMod.Core/tree/ebddd4f0fb1b57ee9fe40353c5c2e4a07def2c15/UI).
 
 For any questions contact me on Discord: Topi#1337
 
