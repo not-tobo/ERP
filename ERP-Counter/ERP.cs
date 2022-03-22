@@ -66,7 +66,7 @@ namespace ERP
 
             var dashboardContent = scrollRect.content;
             dashboardContent.GetComponent<VerticalLayoutGroup>().childControlHeight = true;
-            dashboardContent.Find("Carousel_Banners").gameObject.SetActive(false);
+            dashboardContent.Find("Carousel_Banners")?.gameObject.SetActive(false);
 
             scrollRect.enabled = true;
             scrollRect.verticalScrollbar = dashboardScrollbar;
