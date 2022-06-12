@@ -43,7 +43,8 @@
     <Reference Include="MelonLoader">
       <HintPath>D:\VRC_MODDING\VRChat-ML4\MelonLoader\MelonLoader.dll</HintPath>
     </Reference>
-    <Reference Include="ReMod.Core">
+    <Reference Include="ReMod.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\VRC_MODDING\VRChat-ML4\ReMod.Core.dll</HintPath>
     </Reference>
     <Reference Include="System" />
